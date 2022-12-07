@@ -59,3 +59,4 @@ parni = A[rem.(A, 2) .== 0]
 suma_svake_vrste = sum(A, dims = 2)
 max_el = maximum(suma_svake_vrste)
 vrste = findall(suma_svake_vrste .== max_el)
+
