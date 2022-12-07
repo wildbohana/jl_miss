@@ -91,4 +91,3 @@ end
 # Poziv funkcije
 ve, sk = zadatak6(A, K)
 
-
