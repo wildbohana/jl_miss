@@ -1,0 +1,24 @@
+25. Analitičko izračunavanje izlaza primenom inverzne Laplasove transformacije.
+
+Grafički:
+-- slika
+
+Postupak:
+1. rastavljanje F(s) na parcijalne sabirke
+2. prepoznavanje sabiraka u tablicama Laplasove transformacije i pisanje originala
+
+F(s) = P(s) / Q(s)
+
+Od posebnog značaja su polovi funkcije F(s), odnosno koreni Q(s) = 0
+Mogu se uočiti četiri karakteristična slučaja:
+- svi polovi funkcije su realne i prosti
+- postoje višestruki realni koreni
+- postoje konjugovano-kompleksni polovi, a realni su prosti
+- postoje višestruki konjugovano kompleksni polovi
+
+Od polova funkcije prenosa zavisi karakter ponašanja sistema
+Odziv sistema može biti:
+- kritično-aperiodičan (polovi realni i jednaki, €=1)
+- aperiodičan (polovi realni i različiti, €>1)
+- prigušeno periodičan (konjugovano kompleksni sa neg. realnim delom, 0<€<1)
+- periodičan (konjugovano kompleksni, realan deo nula, € = 0)

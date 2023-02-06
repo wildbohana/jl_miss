@@ -1,0 +1,8 @@
+57. Simulacija diskretnih događaja u Julija softverskom paketu SimJulia.
+
+Osnovne komponente koje učestvuju u simulaciji diskretnih događaja:
+- sumulaciono okruženje
+- procesi
+- događaji
+
+Paket SimJulia je zasnovana na osnovnoj obradi događaja u toku simulacije, pri čemu su oni sortirani po prioritetu, vremenu nastanka isl.

@@ -1,0 +1,30 @@
+36. Rešavanje običnih diferencijalnih jednačina upotrebom Julija softverske biblioteke DifferentialEquations (opis jednačina, parametri modela, izbor algoritma, parametri algoritma).
+
+using DifferentialEquations - rešavanje:
+- običnih diferencijalnih jednačina
+- diskretnih jednačina
+- stohastičkih ODJ
+- stohastičkih PDJ
+
+Postupak rešavanja ima sledeće korake:
+1. definisanje problema
+2. rešavanje problema
+3. analiza dobijenih rezultata
+
+Primer:
+# uvođenje promenljive koja definiše problem
+# funkcija f opisuje ODJ, p su parametri modela
+prob = ODEProblem(f, y0, t, p)
+# numeričko rešavanje problema
+r = solve(prob)
+# prikaz na grafiku
+plot(r.t, t.u)
+
+Parametri numeričkog proračuna:
+- reltol - relativna greška
+- abstol - apsolutna greška
+- dt - korak integracije...
+
+Izbor algoritma:
+- u zavisnosti od toga koji problem rešavamo, biram algoritam koji ćemo da koristimo
+- ????

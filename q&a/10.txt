@@ -1,0 +1,6 @@
+10. Osobine linearnog modela.
+
+Model je linearan ako ispunjava osobine:
+1. superpozicija
+2. homogenost
+3. stacionarnost

@@ -1,0 +1,14 @@
+52. Veštačka neuronska mreža kao model dinamičkog sistema.
+
+VNM imaju sposobnost da (proizvoljno) mapiraju ulaze na izlaze
+To im omogućava da modeliraju i simuliraju ponašanje sistema
+
+Mogu se identifikovati:
+- statički modeli
+- dinamički modeli
+
+Dinamički model:
+- potrebno je da VNM nauči preslikavanje skupa ulaza na skup izlaza
+- ovo preslikavanje zavisi od vremena (stanja sistema)
+- potrebno je da model zapamti svoje unutrašnje stanje
+- može se realizovati rekurzivnom meuronskom mrežom (feedback)

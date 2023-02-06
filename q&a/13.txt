@@ -1,0 +1,14 @@
+13. Vremenski diskretni modeli: namena, kvantovanje, teorema o odabiranju.
+
+Razlozi upotrebe vremenski diskretnih (digitalnih) modela:
+– Upotreba računara (obrada)
+– Kodovanje signala (prenos signala na daljinu bez smetnji)
+– Vremenski multipleks
+
+Prilikom kvantovanja signala, signali se predstavljaju brojnim vrednostima.
+Signali se diskretizuju po vremenu ili po nivou. Kvantovanje po vremenu vrši odabirač sa periodom odabiranja T. Kvantovanje po nivou vrši analogno-digitalni konvertor.
+
+Teorema odabiranja:
+Ako kontinualan signal f(t) ne sadrži harmonike u području učestanosti veće od w0[rad/s], on se može kompletno okarakterisati vrednostima signala merenim u trenucima međusobno udaljenim za vreme T = 0.5(2*pi/wo)
+Drugim rečima, perioda uzorkovanje signala treba da je barem 2 puta kraća od periode (prostoperiodične) komponente signala koja ima najveću učestanost.
+

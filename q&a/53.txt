@@ -1,0 +1,20 @@
+53. Upotreba veštačkih neuronskih mreža u Julija softverskom paketu Flux.
+
+Obučavajući skup se deli na 2 dela:
+1. podskup za obuku 
+2. podskup za kontrolu
+
+Biblioteka Flux uvodi:
+- gradient - za izračunavanje izvoda
+- dense - opis sloja neurona, modeluje fully-connected sloj
+- descent - implementira gradijentni postupak
+- train! - njenim pozivom se sprovodi obuka
+- chain - povetuje slojeve neurona
+- momentum - implementira gradijentni postupak sa inercijom
+
+Tipovi slojeva neurona u Flux paketu:
+- Dense
+- RNN
+- Conv
+- MaxPool
+- Maxout...

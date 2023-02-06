@@ -1,0 +1,20 @@
+38. Analiza ponašanja modela u Julija softverskom paketu ControlSystems.
+
+Analiza ponašanja modela se može sprovesti u vremenskom i kompleksnom domenu
+Analiza u vremenskom domenu se svodi na simulacije, odnosno na izračunavanje izlaza iz modela kada se pobudi željenim ulazom
+
+Funkcije za izračunavanje izlaza su:
+- step (Hevisajdov jedinični signal)
+- impulse (Dirakov impuls)
+- lsim (ostali signali)
+
+Odziv modela na jediničnu pobudu:
+y, t, x = step(model, tu)
+
+Odziv modela na impulsnu pobudu:
+y, t, x = impulse(model, tu)
+
+Odziv modela na proizvoljnu pobudu i početno stanje:
+y, t, x = lsim(model, u, t, x0)
+
+Pobudu složenog modela možemo saznati ako znamo pobude njegovih pojedinačnih delova na određeni signal, i kako su delovi u sistemu povezani

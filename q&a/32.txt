@@ -1,0 +1,26 @@
+32. Numeričko rešavanje običnih diferencijalnih jednačina: Ojlerova metoda i promenljiv korak integracije.
+
+Problem:
+ dy/dt = f(y, t)
+ y(t0) = y0
+
+Rešenje:
+- polazi se od poznatih (t0, y0) i sukcesivno se računaju parovi (ti, yi)
+- iterativan račun se sprovodi korak po korak, gde se vrednosti u sledećem koraku računaju na osnovu prethodno izračunatih vrednosti
+
+Ojletove metode - usvakoj iteraciji se uvodi predviđena vrednost, i ona se koriguje
+Iteracija:
+ yi+1 = yi + dyi/dt*h + (dyi+1/dt - dyi/dt)*h/2
+Predviđena vrednost (metode 1. reda):
+ ypi+1 = yi + dyi/dt * h
+Korekcija (metode 2. reda):
+ €i = (dypi+1/dt - dyi/dt)*h/2
+ yki+1 = ypk+1 + €i
+
+Osnovna ideja za rešavanje yi+1 kod ODJ je razvoj u Tejlorov red u okolini tačke (ti, yi)
+Početni elementi Ojlerove metode su ti, yi i izvod f(yi, ti)
+Tražimo yi+1
+
+Korak integracije može biti promenljiv i fiksan
+Kada je fiksan, uvek znamo koji je, i ne moramo ga računati
+Promenljiv korak nam omogućava da ga prilagođavamo po iteracijama

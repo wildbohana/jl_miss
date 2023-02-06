@@ -1,0 +1,31 @@
+18. Rotacioni mehanički sistemi - promenljive, elementi, zakonitosi, dobijanje modela.
+
+Promenljive:
+teta - ugao [rad]
+   w - ugaona brzina [rad/s]
+alfa - ugaono ubrzanje [rad/s^2]
+ tau - moment sile [Nm]
+   p - snaga rotirajućeg tela
+   E - energija
+
+Zakoni elemenata:
+- moment inercije J (kvantativna mera inertnosti tela, zavisi od tela)
+- trenje usled rotacije (nastaje prilikom dodirivanja tela)
+- elastičnost usled uvrtanja (teži da telo vrati u prvobitan oblik)
+- poluga
+- zupčanici
+
+Zakonitosti uzajamnog dejstva elemenata:
+1. Dalamberov zakon
+   - suma svih momenata sile koji deluju na telo jednaka je nuli
+2. Zakon reakcije momentnih sila
+   - kada jedno telo deluje momentom sile na drugo, onda i drugo telo deluje na prvo telo momentom sile istog intenziteta i pravca, ali suprotnog smera
+3. Zakon ugaonih pomeraja
+   - suma ugaonih pomeraja duz zatvorene putanje jednaka je nuli
+
+Dobijanje modela sistema:
+1. Naznačimo (usvojimo) pozitivan smer za promenljive
+2. Upotrebom zakona ugaonih pomeraja izbegavamo višak simbola potrebnih za opis kretanja
+3. Za svaku masu ili spojnu tačku (čije je kretanje nepoznato) crtamo dijagram koji pokazuje sve momente sila, uključujući inercijalni moment sile
+4. Sve momente sila, sem pobudnih (ulaznih) izražavamo preko teta, w, alfa upotrebom zakona elemenata
+5. Primenjujemo Dalamberov zakon na svaki dijagram

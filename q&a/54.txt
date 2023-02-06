@@ -1,0 +1,30 @@
+54. Osnovni elementi i procesi sistema sa redovima čekanja.
+
+Komponente sistema: 
+- entiteti (klijenti ili potrošači)
+- redovi (popunjavaju se entitetima)
+- resursi (kanali usluživanja ili servisi)
+
+Karakteristični procesi:
+- dolazak
+- izbor reda
+- čekanje u redu
+- izbor kanala
+- servisiranje
+- napuštanje sistema ili prelazak u drugi red (eventualno - odustajanje)
+
+Osobine entiteta: broj entiteta koji ulaze u sistem, vremena međudolazaka entiteta, naziv entiteta...
+Osobine redova: pravilo upravljanja (disciplina reda), kapacitet
+Osobine resursa: zauzetost, aktivnost, zavisnost
+
+Podele sistema na osnovu:
+- broja redova čekanja [jedan / više]
+- broja kanala usluživanja [jedan / više]
+- broja faza servisiranja [jednofazni / višefazni]
+- dužine reda čekanja [ograničen / neograničen]
+- kapaciteta sistema [ograničen / neograničen]
+
+Dodatne specifičnosti sistema:
+- odustajanje
+- napuštanje
+- prebacivanje

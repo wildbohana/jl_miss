@@ -1,0 +1,28 @@
+56. Kendalova notacija. Raspodele.
+
+Kendalova notacija opisuje sistem sa redovima čekanja kao A/B/C/X/Y/Z gde su:
+- A - pravilo dolazaka klijenata
+- B - pravilo servisiranja
+- C - broj paralelnih servera u sistemu
+- X - pravila opsluživanja klijenata iz reda čekanja
+- Y - kapacitet sistema
+- Z - veličina populacije
+
+Raspodele (koriste se za A i B):
+- M - eksponencijalna raspodela dolazaka (Poasonova)
+- Ek - Erlangova raspodela reda k
+- D - deterministička raspodela (uniformna)
+- G - opšta raspodela (normalna)
+
+Karakteristike Poasonovog procesa:
+1. stacionarnost
+2. ordinarnost
+3. odsustvo memorije
+
+M/M/1 sistem - sistem sa jednim serverom u koji klijenti pristižu i opslužuju se u vremenima generisanim po Poasonovoj raspodeli
+
+Zakonitosti opsluživanja (X):
+- FIFO - First In First Out
+- LIFO - Last In First Out
+- SIRO - Service In Random Order
+- PRI - Priority First

@@ -1,0 +1,37 @@
+37. Načini predstavljanja modela i konverzija u Julija softverskom paketu ControlSystems.
+
+Koristi se za modelovanje i simulaciju sistema automatskog upravljanja
+Modeluje linearne vremenski nepromenljive modele
+Jedna promenljiva se upotrebljava da opiše model sistema
+
+Tipovi modela:
+- ss - model u prostoru stanja
+- tf - funkcija prenosa opisana količnikom polinoma
+- zpk - funkcija prenosa opisana preko nula, polova i pojačanja
+
+Svi navedeni tipovi su izvenedi iz LTI tipa objekta (zato dele neke osobine)
+Vremenski diskretni modeli imaju i dodatam parametar - vreme odabiranja Ts
+Konverzija vremenski kontinualnog modela u vremenski diskretni: 
+ diskretanModel = c2d(kontinualanModel, Ts)
+
+Formiranje modela:
+P = 38.9
+Q = [1, 12.5, 0]
+W = tf(P, Q)
+
+Pobuni signali:
+- step (Hevisajdnov jedinični signal)
+- impulse (Dirakov impuls)
+- lsim (svi ostali signali)
+
+Primeri:
+y, t, x = step(model, tu)
+y, t, x = impulse(model, tu)
+y, t, x = lsim(model, u, t, x0)
+
+Složen model se može dobiti spajanjem više objekata (delova modela)
+Za to nam služe funkcije:
+- series - redna veza
+- parallel - paralelna veza
+- feedback - povratna sprega (podrazumevana je negativna)
++ append - samo objedinjuje delove u nepovezan model

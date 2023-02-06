@@ -1,0 +1,25 @@
+19. Termički sistemi - promenljive, elementi, zakonitosti, dobijanje modela.
+
+Termički sistemi su sistemi gde postoji skladištenje ili prenos toplote
+Matematički modeli se izvode na osnovu poznatih zakona termodinamike
+
+Matematički model čine:
+- parcijalne diferencijalne jednačine (zbog prostorne distribuiranosti)
+- obične diferencijalne jednačine (koncentrisani parametri)
+- linearne obične diferencijalne jednačine (linearizacija)
+
+Promenljive:
+teta - temperatura tela [K]
+   q - količina toplote [J/s] = [W]
+
+Elementi:
+- pasivni - termička kapacitivnost, termička otpornost
+- aktivni - termički izvor
+
+Zakonitosti
+- ukoliko u modelu postoji neka fizička veličina koja je nelinearna, tada je i model nelinearan
+
+Dobijanje modela:
+- kao promenljive stanja se uzimaju temperature svakog tela koja ima toplotni kapacitet
+- prenošenje toplote u telo sa toplotnim kapacitetom zavisi od izvora toplote i prenošenja toplote peko termičkih otpornosti
+

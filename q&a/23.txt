@@ -1,0 +1,16 @@
+23. Standardni pobudni signali. Primena Laplasove transformacije na signale.
+
+Hevisajdov signal:
+- jedinični signal
+- h(t) = {0, 1}
+- L{h(t)} = H(s) = 1/s
+
+Dirakov impuls:
+- impuls
+- d(t) = {0, Inf}
+- L{d(t)} = D(s) = 1
+
+Jedinični nagibni signal:
+- rampa
+- f(t) = {0, x}
+- L{f(t)} = 1/s^2

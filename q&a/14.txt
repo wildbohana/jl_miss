@@ -1,0 +1,8 @@
+14. Vremenski diskretan model u prostoru stanja. Dobijanje modela.
+
+Za razliku od linearnog kontinualnog m.m. u prostoru stanja, kod linearnog vremenski diskretnog m.m. nema izvoda, nego se određuje vrednost u narednom trenutku.
+[050.13 slajd]
+
+Vrednosti promenljivih stanja u diskretnim trenucima se mogu izračunati rekurzivno na osnovu poznavanja x(0) i vrednosti ulaza u svim trenucima u(k), k=0,1,2,...
+
+???

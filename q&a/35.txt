@@ -1,0 +1,21 @@
+35. Rešavanje sistema linearnih algebarskih jednačina upotrebom Julija softvera. Metoda najmanjih kvadrata.
+
+Regularan SLAJ:
+- n == m
+- det(A) != 0
+
+Postupak numeričkog (Julia) rešavanja:
+- formiranje matrice A i vektora b
+- računanje vektora x kao x = A \ b
+
+MNK:
+- primenjuje se na SLAJ koji je preodređen 
+  (sistem koji ima više jednačina nego nepoznatih) 
+- izračunamo vektor x kao x = A\b;
+- računamo vrednost greške kao e = A*x - b;
+- računamo funkciju cilja kao J = e'*e;
+- pretpostavimo neko drugo rešenje x2 i proveravamo da li je J2 - J > 0
+  (što znači da je izračunata vrednost tačnija od pretpostavljeno)
+
+Funkcija cilja kod MNK:
+ J = 1/2 * suma(k=1, m) ek^2

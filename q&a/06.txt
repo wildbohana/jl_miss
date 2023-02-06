@@ -1,0 +1,23 @@
+6. Analitičko i simulaciono rešenje. Simulacija i optimizacija.
+
+Analitičko rešavanje koristi dedukativne postupke matematičke analize
+Daje opšte rešenje u obliku formule
+Važi za razne kombinacije ulaza i parametara
+Analitičko rešenje je preciznije, ali nije uvek moguće da se primeni
+Ograničenja:
+- sistem i njegovi odnosi nisu dovoljno poznati da se opišu matematički
+- složeno se sprovodi, a često je i nemoguće
+
+Simulaciono rešavanje koristi simulacioni model zasnovan na modelu realnog sistema
+Na osnovu zadatih ulaza i parametara modela izračunava izlaze modela
+Programski izvršava instrukcije za generisanje podataka o ponašanju
+
+Zadatak optimizacije je da pronađe najbolje rešenje (od više mogućih)
+Matematičkom funkcijom se opiše cilj koji zavisi od promenljivih, 
+a onda se traže vrednosti promenljivih za koje je funkcija cilja najveća ili najmanja
+
+Optimizacioni problem može sadržati simulaciju gde se tokom njegovog rešavanja menjaju ulazi u model ili njegovi parametri
+Tako gledano, svaka iteracija u pretrazi vrši simulaciju
+
+Sa druge strane, u simulaciji, algoritmi za rešavanje jednačina matematičkog modela, 
+kao i određivanje nepoznatih parametara modela su rezultat optimizacije

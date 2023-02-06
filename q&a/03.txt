@@ -1,0 +1,12 @@
+3. Klasifikacije modela.
+
+Brojne su, ali neke od najznačanijih su:
+1. Vremenski kontinualni i vremenski diskretni modeli
+2. Modeli diskretnih i kontinualnih stanja
+3. Kontinualan model
+4. Deterministički i stohastički modeli
+5. Invarijantni i varijantni modeli
+6. Statički i dinamički modeli
+7. Linearni i nelinearni modeli
+8. Modeli bez memorije, autonomni i neautonomni modeli
+9. Fizički i apstraktni modeli

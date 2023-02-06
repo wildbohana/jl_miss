@@ -1,0 +1,30 @@
+40. Zadehov opis problema identifikacije. Promena i načini sprovođenja. Postupak identifikacije.
+
+Definicija:
+Identifikacija je određivanje na osnovu ulaznih i izlaznih signala procesa, modela iz određene klase modela, koji je ekvivalentan procesu na kome su izvršena određena merenja.
+
+Model gradimo na osnovu:
+- teorije (whitebox)
+- eksperimenata (blackbox)
+- kombinacije (graybox)
+
+U postupku identifikacije treba:
+- usvojiti strukturu ekvivalencije
+- definisati kriterijum ekvivalencije
+- izvršiti merenja
+
+Identifikacija je iterativan postupak
+Koraci identifikacije:
+1. eksperimenti i prikupljanje UI podataka procesa
+2. ispitivanjem izmerenih podataka, filtriraju se nepotrebne promenljive
+3. definisanje klase modela
+4. određivanje konkretnog modela
+5. ispitivanje usvojenih osobina modela
+6. u slučaju greške, vraćanje korak po korak u nazad
+
+Načini sprovođenja:
+- on-line (tokom rada sistema)
+- off-line (nezavisno od rada sistema)
+- real-time (tokom rada sistema, ali nakon svake periode odabiranja)
+
+Parametarska identifikacija - određivanje modela koji je poznat sa tačnošću do nepoznatih parametara.

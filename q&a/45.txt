@@ -1,0 +1,27 @@
+45. Identifikacija promenljivih parametara. Rekurzivni metod najmanjih kvadrata.
+
+Ako je izlaz modela linearan po nepoznatim parametrima, i ako parametri nisu promenljivi, onda je RMNK pogodna za on-line parametarsku identifikaciju
+
+Ako se parametri modela menjaju tokom rada sistema, onda treba vršiti real-time parametarsku identifikaciju
+U tom slučaju je pogodno dati veću važnost skorijim merenjima
+Uvodi se posebna promenljiva ro - faktor zaboravljanja
+Kriterijum optimalnosti koji ovo uzima u obzir:
+ J = 1/2 suma (i=0, k) ro^k-1 e(k)^2
+
+RMNK ima i sledeće pogodnosti:
+- manji memorijski zahtevi
+- brže izvršavanje
+- pogodna je i za on-line i za real-time identifikaciju
+
+Formula:
+q^(k+1) = q^(k) + P(k+1)Ф(k+1) (y(k+1) - Ф^t(k+1)q^(k))
+
+Kriterijum optimalnosti je isti kao i za MNK, odstupanje od greške
+Ukoliko je J = 0, tada ne postoji greška
+
+Koraci kod RMNK:
+1. prikupa se nove vrednosti ulaza u(k+1) i izlaza y(k+1)
+2. formiraju se Ф(k+1)
+3. izračuna se P(k+1)
+4. izračuna se procena parametara q^(k+1)
+5. memorišu se P(k)=P(k+1), q^(k) = q^(k+1) za naredni trenutak odabiranja

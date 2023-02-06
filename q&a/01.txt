@@ -1,0 +1,26 @@
+1. Osnovni pojmovi modeliranja i simulacije. Model i teorija.
+
+Realan sistem -> model -> računar
+Modelovanje je proces pravljenja modela na osnovu realnog sistema
+
+Model je pogodan način predstavljanja ukupnog čovekovog iskustva i njegovog načina razmišljanja o sistemu koji istražuje
+Predstavlja deo realnog sveta, neki već postojeći realan sistem ili zamišljen sistem
+
+Zadati ulazi ->  RS   -> izmereni izlazi
+Zadati ulazi -> model -> izračunati izlazi
+
+Eksperimentalni okvir su pretpostavke koje uvodimo kod modelovanja sistema da suzimo posmatranje ponašanja sistema
+
+Simulacija je oponašanje funkcionisanja realnog sistema
+Simulacijom postižemo da ne vršimo skupe eksperimente na RS
+Određuje ponašanje sistema na osnovu poznatih ulaza i promenljivih stanja
+
+Računarska simulacija je određivanje ponašanja nekog sistema koje se vrši digitalno - preko računara
+Predstavlja softver kojim se oponaša RS
+
+Studija simulacije su dokumentovani i povezani rezultati simulacija i njihova analiza
+
+Teorija je opšti iskaz principa izveden iz posmatranja sistema i podataka dobijenih posmatranjem
+Teorija je neophodan elemenat koji povezuje model i sistem, ona objašnjava ponašanje sistema i omogućava predviđanje zaključaka koji se mogu proveriti
+Model je samo predročena teorija
+Model je konkretan i omogućava da se teorija proveri na delu.

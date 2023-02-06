@@ -1,0 +1,8 @@
+01-06  Modelovanje i simulacija sistema
+07-16  Matematički modeli
+17-21  Modeli fizičkih sistema
+22-34  Simulacija sistema opisanog matematičkim modelom
+35-39  Simulacija i softverske biblioteke
+40-47  Identifikacija
+48-53  Upotreba veštačkih neuronskih mreža u modeliranju
+55-57  Simulacija diskretnih događaja i redovi čekanja

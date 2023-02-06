@@ -1,0 +1,24 @@
+48. Model veštačkog neurona i aktivacione funkcije.
+
+Neuron je osnovni procesni element VNM
+Sadrži:
+- xi - ulaze
+- wi - sinapse
+- z - stanje aktivacije
+- f - izlaznu funkciju
+- o - jedan izlaz
+- b - prag
+
+Podesivi parametri neurona su wi i b
+Izlaz neurona:
+o = f(z) = f(suma wi*xi + b)
+
+Izlazne (aktivacione) funkcije neurona:
+- linearna
+- pragovska funkcija
+- semi-linearna
+- log-sigmoidalna
+- hipoerbolični tangens
+- ReLU
+- Leaky ReLU
+- Maxout...

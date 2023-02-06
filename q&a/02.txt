@@ -1,0 +1,30 @@
+2. Faze modelovanja i simulacije. Neformalan i formalan opis modela.
+
+Proces formiranja i upotrebe modela:
+1. razumevanje sistema i vršenje merenja
+2. formiranje teorije
+3. formiranje neformalnog modela
+4. razrada u formalan model
+5. izgradnja simulacionog modela
+6. testiranje i verifikacija modela
+7. simulacije (u užem smislu) i prikupljanje simulacionih rezultata
+8. analiza rezultata i formiranje dokumentacije
+
+Neformalan opis daje osnovne pojmove o modelu
+Brzo i lako se formira
+On uvodi:
+– objekte (gradivne jedinice modela)
+– opisne promenljive (opisuju stanja objekata i njihove karakteristike)
+– ponašanje i pravila interakcije objekata (opis međusobnih uticaja objekata)
+Najčešće je:
+– nejasan (postoje akcije nepoznatog redosleda)
+– nekompletan (ne opisuje sve situacije)
+– nekonzistentan (postoji više pravila koja se mogu primeniti u istoj situaciji)
+
+Formalan model nastaje kao razrada neformalnog modela
+Formalan model treba da obezbedi preciznost i potpunost opisa sistema:
+- opisuje sistem na jasan i nedvosmislen način
+- koristi poznate metodologije
+
+Formalan model ne zamenjuje neformalan model
+Neformalan model ima svoju ulogu u dokumentovanju i upoznavanju/razumevanju napravljenog modela

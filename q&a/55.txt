@@ -1,0 +1,32 @@
+55. Simulacija redova čekanja (tipovi sistema, algoritam, parametri, rezultati simulacije).
+
+Podele sistema na osnovu:
+- broja redova čekanja [jedan / više]
+- broja kanala usluživanja [jedan / više]
+- broja faza servisiranja [jednofazni / višefazni]
+- dužine reda čekanja [ograničen / neograničen]
+- kapaciteta sistema [ograničen / neograničen]
+
+Algoritam:
+- modelujemo sistem
+- menjamo broj redova čekanja, broj kanala usluživanja, broj faza servisiranjas
+- pronalazimo za koje vrednosti dobijamo optimalne dužine redova i iskorišćenost servera
+
+Parametri simulacije sistema:
+- trajanje simulacije
+- ukupan broj entiteta
+- ograničenje dužine reda čekanja
+- broj servera
+- srednje vreme do dolaska novog klijenta po jedinici vremena
+- srednje vreme opsluživanja klijenta
+
+Rezultati simulacije:
+- prosečno vreme čekanja
+- prosečno vreme zadržavanja u sistemu
+- prosečna dužina reda čekanja
+- prosečan broj klijenata u sistemu...
+
+Ciljevi analize redova čekanja je optimizacija rada sistema sa aspekta:
+- vremena čekanja
+- dužine reda čekanja
+- iskorišćenosti servisa...

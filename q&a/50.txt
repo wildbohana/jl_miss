@@ -1,0 +1,46 @@
+50. Obučavanje veštačkih neuronskih mreža (BP algoritam).
+
+Obučavanje VNM za cilj ima podešavanje parametara mreže (W i b) tako da se minimizuje funkcija cilja J(W, b)
+Funkcija cilja J (loss function) tipično predstavlja razliku željenog i ostvarenog izlaza mreže
+
+Na osnovu funkcije cilja, tipa sloja i aktivacionih funkcija definiše se pravilo (algoritam) korekcije parametara mreže Δw, Δb
+
+Za obučavanje se upotrebljava obučavajući skup
+Obučavanje se sprovodi iterativno - u više ciklusa
+Jedan ciklus obučavanja - jedan prolaz kroz (ceo ili deo) obučavajućeg skupa
+Nakon jednog ciklusa se ažuriraju parametri:
+wk+1 = wk + Δw
+bk+1 = bk + Δb
+
+Modeli obučavanja VNM:
+- supervizorsko (obučavajući skup - parovi (ulaz, željeni izlaz)
+- nesupervizorsko (obučavajući skup - samo ulazi)
+
+Model zasnovan na VNM treba da je predikativno valjan
+Loše je kada se mreža pretrenira i to se izbegava podelom obučavajućeg skupa na tri dela:
+1. podskup za obuku
+2. podskup za kontrolu
+3. podskup za testiranje obučene mreže
+
+Back-propogation algoritam (BP)
+- najčešće upotrebljivan algoritam
+- koristi gradijentni algoritam za minimizaciju funkcije cilja: min(w,b) J
+  Δw = -ni * parcijalni izvod J po w
+  Δb = -ni * parcijalni izvod J po b
+- konstanta 0 < ni < 1 je koeficijent brzine obučavanja
+- za računanje gradijenata primenjuje se računanje izvoda složene funkcije po promenljivim parametrima
+– proces računanja polazi od izlaza mreže i kreće se ka ulazu
+
+Koraci BP algoritma:
+1. inicijalizuju se težine W i b na slučajne male vrednosti
+2. postavi se ulaz X i izračunaju se izlazi neurona O
+3. izračuna se greška J
+4. izračunaju se gradijenti J po parametrima, i na osnovu njih ΔW i Δb
+5. koriguju se parametri mreže W i b
+6. proveri se da li je mreža obučena, ako nije nastavlja se novom epohom
+
+Implementacija BP:
+- model VNM sadrži slojeve
+- svaki sloj koristi matrice i vektore da modeluje parametre
+- matrice modeluju obučavajući skup
+- računanje po BP algoritmu se sprovodi za ceo obučavajući skup

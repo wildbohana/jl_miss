@@ -1,0 +1,20 @@
+34. Strukturni blok dijagram sistema automatskog upravljanja. Algebra funkcije prenosa.
+
+Strukturni blok dijagram je grafička predstava matematičkog modela
+Elementi: signali, grane, čvorovi, sabirači
+
+Osnovne transformacije:
+- redna veza (slika)
+- paralelna veza (slika)
+- povratna sprega (slika)
+
+Trivijalne transformacije:
+- čvorovi (3 slike)
+- sabirači (3 slike)
+
+Primer blok dijagrama
+-- slika
+
+Jednostavne transformacije se koriste kada želimo da uprostimo strukturni blok dijagram kako bismo došli do funkcije prenosa
+Želimo da dobijemo model celog sistema
+Cilj transformacija - isti odnos ulaz-izlaz pre i posle transformacija

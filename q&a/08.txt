@@ -1,0 +1,28 @@
+8. Matematički model (nelinearan) u prostoru stanja. Koncept i izbor promenljivih stanja.
+
+Nelinearn model u PS:
+x'(t) = f(x(t), u(t), t),   x(0) = x0
+ y(t) = g(x(t), u(t), t)
+
+u - ulazi, y - izlazi, x - promenljive stanja, t - vreme
+f, g - nelinearne vektorske funkcije
+
+Pogodan je jer:
+– određivanje rešenja sistema diferencijalnih jednačina prvog reda je brže nego rešavanje odgovarajuće diferencijalne jednačine višeg reda
+– matematičko opisivanje upotrebom vektorske notacije je prilagođeno upotrebi nizova i biblioteka matrične algebre
+– uključivanje početnih uslova je jednostavno
+– ovakav pristup se može primeniti na vremenski promenljive, nelinearne, stohastičke i diskretne modele
+
+Statički model se opisuje algebarskim jednačinama
+Dinamički model se opisuje diferencijalnim jednačinama
+
+Promenljive stanja:
+- opisuju ponašanje sistema
+- jednoznačno određuju stanje sistema
+- biraju se promenljive koje određuju zakoni fizike
+
+Promenljive stanja za neke od sistema
+- mehanicki sistemi - pozicija, brzina
+- termicki sistemi - temperatura tela
+- sistemi sa fluidima - pritisak
+- elektricni sistemi - napon ili jacina struje

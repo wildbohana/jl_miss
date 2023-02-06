@@ -1,0 +1,28 @@
+46. Iterativne metode parametarske identifikacije (Gaus-Njutnov algoritam).
+
+Iterativne metode parametarske identifikacije mogu da identifikuju parametre sistema čiji je model nelinearan po nepoznatim parametrima
+Neki od tih metoda su Njutnov, gradijentni, Gaus-Njutnov algoritam...
+Naredna vrednost parametra se određuje na osnovu prethodne
+
+Funkcije osetljivosti su izvodi izlaza modela po parametrima q
+One se koriste radi provere osobine identifiabilnosti, kao i za određivanje parametara algoritmima gde se koristi gradijent funkcije cilja
+
+Gaus-Njutn algoritam:
+- funkcija cilja J(x) = 1/2 * suma(i=1, m) fi^2(x)
+- potrebno je definisati:
+  1) vektor funkcije oblika f(x) = 0
+  2) matricu Jakobijana J(xk)
+- koristi se Δx = -(J^t(xk)J(xk))^-1 * J^t(xk)f(xk)
+
+Osobine G.Nj. algoritma:
+- brzo izvršavanje (konvergencija u okolini optimuma)
+- moguća divergencija u početnim iteracijama
+- mali broj iteracija
+
+Kriterijum zaustavljanja:
+- |Δxk| < €k
+- J(xk) < €j
+- k > kmax
+
+Gaus-Njutn parametarska identifikacija:
+ Δqn = -(S^t(qn)S(qn))^-1 J(qn)

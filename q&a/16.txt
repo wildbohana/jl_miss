@@ -1,0 +1,3 @@
+16. Dobijanje funkcije prenosa od matematičkog modela u prostoru stanja. Funkcija prenosa multivarijabilnog sistema.
+
+???

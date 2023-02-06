@@ -1,0 +1,26 @@
+9. Linearan matematički model (u prostoru stanja). Transformacije.
+
+Model je linearan ako ispunjava osobine:
+1. superpozicija
+   y1 + y2 = f(u1 + u2) = f(u1) + f(u2)
+2. homogenost
+   m * y = f(m * u) = m * f(u)
+3. stacionarnost
+   y(t - T) = f(u(t - T))
+
+Linearan m.m. u prostoru stanja se opisuje običnim linearnim diferencijalnim jednačinama (sistem diferencijalnih jednačina 1. reda).
+
+Vektorski zapis:
+x'(t) = Ax(t) + Bu(t)
+y(t) = Cx(t) + Du(t)
+
+Transformacija d.j. višeg reda u sistem d.j. 1. reda:
+- uvode se smene x1 = y, x2 = y', ...
+- dobija se prepoznatljiv matrični oblik
+
+Radna tačka - vrednosti u ustaljenom stanju (nominalna vrednost)
+Sistem može menjati ustaljeno stanje - tada se menja radna tačka, i za nju važi drugačiji linearan model
+U okolini radne tačke model je linearan
+
+Radnu tačku u modelu čine vrednosti ulaza, promenljivih stanja i izlaza
+Te vrednosti se predstavljaju zbirom nomialne i inkrementalne vrednosti

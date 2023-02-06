@@ -1,0 +1,12 @@
+27. Numeričko izračunavanje izlaza linearnog vremenski diskretnog modela u prostoru stanja.
+
+Linearan vremenski diskretan MuPS:
+ x(k+1) = Ex(k) + Fu(k)
+ y(k) = Cx(k) + Du(k)
+Signali su vremenski diskretni
+x - promenljive stanja, y - izlazi, u - ulazi
+
+Potrebno je da odredimo matrice E i F:
+ E = Ф(Т)
+ F = (integral(0,T) Ф(t)dt) * B
+Onda možemo da računamo
